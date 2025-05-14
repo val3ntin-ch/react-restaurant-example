@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom";
+
 const Pizza = (props) => {
   return React.createElement("div", {}, [
     React.createElement("h1", {}, props.name),
@@ -27,8 +30,8 @@ const App = () => {
           name: "Pepperoni",
           description: "Mozzarella Cheese, Pepperoni",
         }),
-      ]
-    )
+      ],
+    ),
   );
 };
 
