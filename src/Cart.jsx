@@ -9,6 +9,7 @@ export default function Cart({ cart, checkout }) {
     const current = cart[i];
     total += current.pizza.sizes[current.size];
   }
+
   return (
     <div className="cart">
       <h2>Cart</h2>
